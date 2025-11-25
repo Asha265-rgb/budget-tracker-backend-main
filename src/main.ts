@@ -40,7 +40,7 @@ async function bootstrap() {
   });
 
   // Setup Swagger with custom options
-  SwaggerModule.setup('api', app, document, {
+  SwaggerModule.setup('/api/docs', app, document, {
     customSiteTitle: 'Budget Tracker API',
     customCss: `
       .swagger-ui .topbar { display: none }
