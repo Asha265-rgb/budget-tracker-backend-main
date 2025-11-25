@@ -60,9 +60,9 @@ async function bootstrap() {
     },
   });
 
-  await app.listen(3000);
-  console.log('🚀 Application is running on: http://localhost:3000');
-  console.log('📚 Swagger documentation at: http://localhost:3000/api');
+  await app.listen(8000);
+  console.log('🚀 Application is running on: http://localhost:8000');
+  console.log('📚 Swagger documentation at: http://localhost:8000/api/docs');
   console.log('💡 Click "Try it out" on any endpoint to test!');
 }
 bootstrap();

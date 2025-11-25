@@ -80,3 +80,5 @@
 {"context":"","level":"info","message":"⬅️  GET /users/test/personal - 3ms","service":"budget-tracker-api","timestamp":"2025-11-24T13:14:09.755Z"}
 {"context":"","level":"info","message":"➡️  GET /users/profile/me - Incoming request","service":"budget-tracker-api","timestamp":"2025-11-24T13:14:29.571Z"}
 {"context":"","level":"info","message":"⬅️  GET /users/profile/me - 54ms","service":"budget-tracker-api","timestamp":"2025-11-24T13:14:29.625Z"}
+{"context":"","level":"info","message":"➡️  POST /auth/login - Incoming request","service":"budget-tracker-api","timestamp":"2025-11-25T10:53:51.107Z"}
+{"context":"","level":"info","message":"⬅️  POST /auth/login - 453ms","service":"budget-tracker-api","timestamp":"2025-11-25T10:53:51.559Z"}
